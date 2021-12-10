@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="23419" started-at="2021-12-03T13:33:17 GMT+07:00" finished-at="2021-12-03T13:33:40 GMT+07:00">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="23419" started-at="2021-12-03T13:33:17 GMT+07:00" finished-at="2021-12-03T13:33:40 GMT+07:00">
+      <class name="Test1">
+        <test-method status="PASS" signature="setupAllureReports()[pri:0, instance:Test1@2e54db99]" name="setupAllureReports" is-config="true" duration-ms="50" started-at="2021-12-03T13:33:17 GMT+07:00" finished-at="2021-12-03T13:33:17 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllureReports -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Test1@2e54db99]" name="test1" duration-ms="16089" started-at="2021-12-03T13:33:17 GMT+07:00" finished-at="2021-12-03T13:33:33 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Test1 -->
+      <class name="CBTest">
+        <test-method status="PASS" signature="setupAllureReports()[pri:0, instance:CBTest@74cadd41]" name="setupAllureReports" is-config="true" duration-ms="50" started-at="2021-12-03T13:33:17 GMT+07:00" finished-at="2021-12-03T13:33:17 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllureReports -->
+        <test-method status="PASS" signature="testSB()[pri:0, instance:CBTest@74cadd41]" name="testSB" duration-ms="17029" started-at="2021-12-03T13:33:17 GMT+07:00" finished-at="2021-12-03T13:33:34 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSB -->
+      </class> <!-- CBTest -->
+      <class name="Test2">
+        <test-method status="PASS" signature="setupAllureReports()[pri:0, instance:Test2@55e8ec2f]" name="setupAllureReports" is-config="true" duration-ms="1" started-at="2021-12-03T13:33:33 GMT+07:00" finished-at="2021-12-03T13:33:33 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllureReports -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Test2@55e8ec2f]" name="test2" duration-ms="6414" started-at="2021-12-03T13:33:33 GMT+07:00" finished-at="2021-12-03T13:33:40 GMT+07:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Test2 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
